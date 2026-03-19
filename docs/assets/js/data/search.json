@@ -1,0 +1,22 @@
+[
+  
+  {
+    "title": "Chirpyで使用するマークダウン記法を解説",
+    "url": "/skillog/posts/usage/",
+    "categories": "Blog, Skill",
+    "tags": "chirpy",
+    "date": "2026-03-19 01:00:00 +0900",
+    "content": "はじめに   JekyllのChirpyテーマには特殊なマークダウン記法が用意されています． しかし，それを解説している公式ドキュメントは英語のみなので， 和訳してまとめなおしました．   この記事でわかること   Chirpyでのマークダウン記法  この記事の対象者   この記事は下記の人を対象にしています．    JekyllでChirpyテーマを使用したい/している人    開発環境      OS   Windows 11 Home 25H2   言語   Ruby 3.2.10   ツール   Gem: 3.4.19   Bundler: 4.0.7   Jekyll: 4.4.1   事前準備   JekyllとChirpyのインストールを完了させておいてください． Jekyllについての説明はこちら Chirpyについての説明はこちら  見出し   見出しの大きさは4段階あります. H1～H4まで番号が付いており，番号が大きいほど小さい文字となります． H1 H2 H3 H4  # H1 ## H2 ### H3 #### H4   文章   ここに文章を記述します．  ここに文章を記述します．   リスト   順序付きリスト     1つめ   2つめ   3つめ   4つめ   5つめ   1. 1つめ 2. 2つめ 3. 3つめ 1. 4つめ 1. 5つめ   番号を同一にしても自動で適切な番号を割り振ってくれます．  順序なしリスト     章            節                    段落           段落                           - 章   - 節     - 段落     * 段落   -だけではなく，*でも代替可能です．  ToDoリスト     未チェック            チェック済み       未チェック           - [ ] 未チェック   - [x] チェック済み   - [ ] 未チェック   説明リスト     項目   説明   項目   説明   項目 : 説明  項目 : 説明   引用      引用文   &gt; 引用文   プロンプト      tip      info      warning      danger   &gt; `tip` {: .prompt-tip }  &gt; `info` {: .prompt-info}  &gt; `warning` {: .prompt-warning}  &gt; `danger` {: .prompt-danger}   表                  列1       列2       列3                       a11       a12       a13                 a21       a22       a23                 a31       a32       a33           リンク   https://tomo2405.github.io/skillog   おわりに   Jekyllの導入についてまとめました． 次回は具体的にテーマを使用する方法を解説しようと思います．   参考記事   https://jekyllrb-ja.github.io/docs/ https://jadehawk.github.io/posts/Creating-This-Website/"
+  },
+  
+  {
+    "title": "【Jekyll入門】Jekyllを用いた個人サイトの構築方法を解説",
+    "url": "/skillog/posts/jekyll/",
+    "categories": "Blog, Skill",
+    "tags": "jekyll",
+    "date": "2026-03-18 01:00:00 +0900",
+    "content": "はじめに   Windows環境でJekyllを使ってみようとしたら，エラー祭りになって解決に苦戦したため，同じ悩みを持つ方のためにWindows環境でJekyllを使う方法について解説します．   この記事でわかること   Windows環境におけるJekyllの導入方法．  この記事の対象者   この記事は下記の人を対象にしています．    WindowsユーザかつJekyllを使ってみたい人    開発環境      OS   Windows 11 Home 25H2   言語   Ruby 3.2.10   ツール   Gem: 3.4.19   Bundler: 4.0.7   Jekyll: 4.4.1     Rubyのインストール   JekyllはRuby製なので，プログラミング言語の一種であるRubyをここからローカル環境に入れます． サイドバーの”WITH DEVKIT”にある項目の中から， ご自身の計算機に合ったものをダウンロードしてください．    例えば，設定 &gt; システム &gt; バージョン情報のデバイスの仕様の欄がシステムの種類　64 ビット オペレーティング システム、x64 ベース プロセッサの場合は，末尾に(x64)がついているものをダウンロードしてください．      テーマとしてChirpyを用いる場合は，Ruby+Devkit 3.2.10-1 を選択します． どうやら，CHirpyは最新バージョンには対応していないようです．   ダウンロードしたインストーラを起動し，画面に表示される指示に適宜答えていってください． 指示に答え終わるとインストールが始まります． 最後にコマンドプロンプトが起動すると思いますので， 1,2,3と入力し，Enterを押してください．  完了後，以下のコマンドをコマンドプロンプトへ入力し， バージョンが出力されることを確認してください． $ ruby -v -&gt; ruby 3.2.10 (2026-01-14 revision a3a6d25788) [x64-mingw-ucrt]  $ gem -v -&gt; 3.4.19   ツールのダウンロード   最後に，以下のコマンドを実行しツールをダウンロードしてください． $ gem install jekyll bundler  ダウンロード後に，以下のコマンドを実行し，ダウンロードされたことを確認してください． $ bundle -v -&gt; 4.0.7 $ bundle exec jekyll -v -&gt; jekyll 4.4.1    おわりに   Jekyllの導入についてまとめました． 次回は具体的にテーマを使用する方法を解説しようと思います．   参考記事   https://jekyllrb-ja.github.io/docs/ https://jadehawk.github.io/posts/Creating-This-Website/"
+  }
+  
+]
+

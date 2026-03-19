@@ -1,0 +1,75 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://tomo1405.github.io/skillog/</id>
+  <title>Tomohiro</title>
+  <subtitle>日常生活で思ったことや感じたことを書いています．特に深い意味はありません</subtitle>
+  <updated>2026-03-19T20:00:26+09:00</updated>
+  <author>
+    <name>Tomohiro Watanabe</name>
+    <uri>https://tomo1405.github.io/skillog/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://tomo1405.github.io/skillog/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="ja"
+    href="https://tomo1405.github.io/skillog/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2026 Tomohiro Watanabe </rights>
+  <icon>/skillog/assets/img/favicons/favicon.ico</icon>
+  <logo>/skillog/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Chirpyで使用するマークダウン記法を解説</title>
+    <link href="https://tomo1405.github.io/skillog/posts/usage/" rel="alternate" type="text/html" title="Chirpyで使用するマークダウン記法を解説" />
+    <published>2026-03-19T01:00:00+09:00</published>
+  
+    <updated>2026-03-19T01:00:00+09:00</updated>
+  
+    <id>https://tomo1405.github.io/skillog/posts/usage/</id>
+    <content type="text/html" src="https://tomo1405.github.io/skillog/posts/usage/" />
+    <author>
+      <name>Tomohiro Watanabe</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="Skill" />
+    
+  
+
+  <summary>この記事ではJekyllのテーマであるChirpyのマークダウン記法について解説しています．</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>【Jekyll入門】Jekyllを用いた個人サイトの構築方法を解説</title>
+    <link href="https://tomo1405.github.io/skillog/posts/jekyll/" rel="alternate" type="text/html" title="【Jekyll入門】Jekyllを用いた個人サイトの構築方法を解説" />
+    <published>2026-03-18T01:00:00+09:00</published>
+  
+    <updated>2026-03-19T19:54:43+09:00</updated>
+  
+    <id>https://tomo1405.github.io/skillog/posts/jekyll/</id>
+    <content type="text/html" src="https://tomo1405.github.io/skillog/posts/jekyll/" />
+    <author>
+      <name>Tomohiro Watanabe</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="Skill" />
+    
+  
+
+  <summary>この記事ではJekyllの導入について解説しています．</summary>
+
+  </entry>
+
+</feed>
+
+
